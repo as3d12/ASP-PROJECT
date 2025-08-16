@@ -285,7 +285,9 @@ dotnet ef migrations remove
 - **Microsoft Identity** - For robust authentication
 - **Entity Framework Core** - For seamless data access
 - **Bootstrap** - For responsive UI components
+---
 
+## 📸 Image For The Website
 ---
 ![image](https://github.com/user-attachments/assets/f135c669-84f7-4acb-adbd-b98d82edaec8)
 
