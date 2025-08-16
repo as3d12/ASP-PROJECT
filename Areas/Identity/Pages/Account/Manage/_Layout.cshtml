@@ -1,0 +1,54 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout != null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+
+<main class="main">
+
+    <!-- Account Management Section -->
+    <section id="account-management" class="account-management section bg-light py-5">
+
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">Manage Your Account</h2>
+                <p class="lead text-muted">Update and customize your account settings below.</p>
+                <hr class="my-4" />
+            </div><!-- End Section Title -->
+
+            <div class="row gy-4">
+
+                <!-- Navigation Menu -->
+                <div class="col-md-3">
+                    <div class="bg-white p-3 rounded shadow-sm">
+                        <nav class="nav flex-column">
+                            <partial name="_ManageNav" />
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="col-md-9">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        @RenderBody()
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- /Account Management Section -->
+
+</main>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

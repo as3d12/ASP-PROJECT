@@ -1,0 +1,72 @@
+﻿@model List<CompanyAvgPricePerTrip>
+
+@{
+	ViewData["Title"] = "Companies Trip Avg Price";
+}
+
+<section class="section">
+
+	<div class="container section-title text-center" data-aos="fade-up">
+		<h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+	</div><!-- End Section Title -->
+
+	<div class="container" data-aos="fade-up" data-aos-delay="100">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="card border-0 shadow-lg">
+					<div class="card-body p-5">
+
+	@if (Model is null || Model.Count() == 0)
+	{
+		<h4>
+			No data!
+		</h4>
+	}
+	else
+	{
+		foreach (var c in Model)
+		{
+			if (c.trips.Count() == 0)
+			{
+				<h4 class="text-danger">
+					@c.CompanyName
+				</h4>
+				<h3 class="text-success">Company has no trips!</h3>
+			}
+			else
+			{
+				 <h4 class="text-danger">
+					@c.CompanyName
+				</h4>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Price</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var trip in c.trips)
+						{
+							<tr>
+								<td class="text-success">
+									@trip.Key
+								</td>
+								<td class="text-success">
+									@trip.Value.ToString("00.00")
+								</td>
+							</tr>
+						}
+					</tbody>
+					<tfoot></tfoot>
+				</table> 
+			}
+		}
+		
+	} 
+	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

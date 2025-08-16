@@ -1,0 +1,77 @@
+﻿@model Eagle.Models.Company
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<main class="main">
+
+    <!-- Company Details Section -->
+    <section id="company-details" class="section bg-light py-5">
+
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+                <p class="lead text-muted">Review the details of the selected company below.</p>
+            </div><!-- End Section Title -->
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Company Information</h4>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Name)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Location)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Location)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Email)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Email)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Phone)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Phone)
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="card-footer bg-white text-end border-0">
+                            @if (User.IsInRole(clsRoles.roleAdmin))
+                            {
+                                <a asp-action="Edit" asp-route-id="@Model?.CompanyId" class="btn btn-outline-primary shadow-sm px-4">Edit</a>
+                            }
+                            <a asp-action="Index" class="btn btn-outline-secondary shadow-sm px-4 ms-2">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <br />
+    </section><!-- /Company Details Section -->
+
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

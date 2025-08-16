@@ -1,0 +1,95 @@
+﻿@model Eagle.Models.Trip
+
+@{
+    ViewData["Title"] = "Edit Trip";
+}
+
+<main class="main">
+
+    <!-- Section Title -->
+    <section id="edit-trip" class="section">
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+            <p class="lead text-muted">Update the details of the selected trip below.</p>
+        </div>
+
+        <!-- Edit Trip Form -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <section class="p-5 rounded-3 shadow-lg bg-white">
+                        <form asp-action="Edit" method="post">
+                            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                            <input type="hidden" asp-for="TripId" />
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="Name" class="form-control border-0 bg-light" placeholder="Trip Name" />
+                                <label asp-for="Name" class="form-label text-secondary">Trip Name</label>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="Description" class="form-control border-0 bg-light" placeholder="Description" />
+                                <label asp-for="Description" class="form-label text-secondary">Description</label>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="StartDate" class="form-control border-0 bg-light" type="date" />
+                                <label asp-for="StartDate" class="form-label text-secondary">Start Date</label>
+                                <span asp-validation-for="StartDate" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="EndDate" class="form-control border-0 bg-light" type="date" />
+                                <label asp-for="EndDate" class="form-label text-secondary">End Date</label>
+                                <span asp-validation-for="EndDate" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="StartTime" class="form-control border-0 bg-light" type="time" />
+                                <label asp-for="StartTime" class="form-label text-secondary">Start Time</label>
+                                <span asp-validation-for="StartTime" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="EndTime" class="form-control border-0 bg-light" type="time" />
+                                <label asp-for="EndTime" class="form-label text-secondary">End Time</label>
+                                <span asp-validation-for="EndTime" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="Price" class="form-control border-0 bg-light" placeholder="Price" type="number" step="0.01" />
+                                <label asp-for="Price" class="form-label text-secondary">Price</label>
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <select asp-for="SectionId" class="form-select border-0 bg-light" asp-items="ViewBag.SectionId"></select>
+                                <label asp-for="SectionId" class="form-label text-secondary">Section</label>
+                                <span asp-validation-for="SectionId" class="text-danger"></span>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary w-100 py-3 shadow-sm">Save Changes</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Back to List Button -->
+            <div class="row mt-4">
+                <div class="col-lg-12 text-center">
+                    <a asp-action="Index" class="btn btn-outline-secondary shadow-sm px-5">Back to List</a>
+                </div>
+            </div><!-- End Back to List Button -->
+        </div>
+
+    </section><!-- /Edit Trip Section -->
+
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

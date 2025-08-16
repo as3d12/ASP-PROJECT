@@ -1,0 +1,86 @@
+﻿@model Section
+
+@{
+    ViewData["Title"] = "Section - Master Details";
+}
+
+<main class="main">
+
+    <!-- Section Title -->
+    <section id="section-details" class="section">
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+            <p class="lead text-muted">View and manage trips associated with this section.</p>
+        </div>
+
+        <!-- Section Details -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <section class="p-5 rounded-3 shadow-lg bg-white">
+                        <h4 class="fw-bold text-secondary">Section Information</h4>
+                        <hr />
+
+                        <dl class="row mb-4">
+                            <dt class="col-sm-3 text-secondary">
+                                <label asp-for="Name" class="form-label"></label>
+                            </dt>
+                            <dd class="col-sm-9">
+                                <input asp-for="Name" class="form-control border-0 bg-light" disabled />
+                            </dd>
+                        </dl>
+
+                        <div class="text-center">
+                            <a asp-action="Index" class="btn btn-outline-secondary shadow-sm px-5">Back to List</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trips Cards -->
+        <div class="container mt-5" data-aos="fade-up" data-aos-delay="150">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold text-secondary">Trips</h4>
+                <a asp-controller="Trips" asp-action="Create" class="btn btn-success shadow-sm">Create New Trip</a>
+            </div>
+
+            @if (Model.Trips is null || Model.Trips.Count() == 0)
+            {
+                <div class="alert alert-info text-center">No Trips found.</div>
+            }
+            else
+            {
+                <div class="row">
+                    @foreach (var item in Model.Trips!)
+                    {
+                        <div class="col-lg-4 mb-4">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-dark">@item.Name</h5>
+                                    <p class="card-text text-muted">
+                                        <span class="fw-bold">Price: </span>@item.Price.ToString("C")
+                                    </p>
+                                </div>
+                                @if (User.IsInRole(clsRoles.roleAdmin))
+                                {
+                                    <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                                        <a asp-controller="Trips" asp-action="Edit" asp-route-id="@item.TripId" class="btn btn-outline-secondary btn-sm shadow-sm">Edit</a>
+                                        <a asp-controller="Trips" asp-action="Details" asp-route-id="@item.TripId" class="btn btn-outline-primary btn-sm shadow-sm">Details</a>
+                                        <a asp-controller="Trips" asp-action="Delete" asp-route-id="@item.TripId" class="btn btn-outline-danger btn-sm shadow-sm">Delete</a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div><!-- End Trips Cards -->
+
+    </section><!-- /Section Details and Trips -->
+
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,71 @@
+﻿@model Eagle.Models.Trip
+
+@{
+    ViewData["Title"] = "Trip Details";
+}
+
+<main class="main">
+
+    <!-- Section Title -->
+    <section id="trip-details" class="section">
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+            <p class="lead text-muted">Review the details of the selected trip.</p>
+        </div>
+
+        <!-- Trip Details Card -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <section class="p-5 rounded-3 shadow-lg bg-white">
+                        <h4 class="fw-bold text-secondary">Trip Information</h4>
+                        <hr />
+
+                        <dl class="row mb-0">
+                            <dt class="col-sm-4 text-secondary">Name</dt>
+                            <dd class="col-sm-8">@Model.Name</dd>
+
+                            <dt class="col-sm-4 text-secondary">Description</dt>
+                            <dd class="col-sm-8">@Model.Description</dd>
+
+                            <dt class="col-sm-4 text-secondary">Start Date</dt>
+                            <dd class="col-sm-8">@Model.StartDate.ToString("MMMM dd, yyyy")</dd>
+
+                            <dt class="col-sm-4 text-secondary">End Date</dt>
+                            <dd class="col-sm-8">@Model.EndDate.ToString("MMMM dd, yyyy")</dd>
+
+                            <dt class="col-sm-4 text-secondary">Start Time</dt>
+                            <dd class="col-sm-8">@Model.StartTime</dd>
+
+                            <dt class="col-sm-4 text-secondary">End Time</dt>
+                            <dd class="col-sm-8">@Model.EndTime</dd>
+
+                            <dt class="col-sm-4 text-secondary">Price</dt>
+                            <dd class="col-sm-8">@Model.Price.ToString("C")</dd>
+
+                            <dt class="col-sm-4 text-secondary">Section</dt>
+                            <dd class="col-sm-8">@Model.Section.Name</dd>
+                        </dl>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="row mt-4">
+                    <div class="col-lg-12 text-center">
+                    <a asp-action="Edit" asp-route-id="@Model?.TripId" class="btn btn-outline-primary  shadow-sm px-5 me-3">Edit</a>
+                    <a asp-action="Index" class="btn btn-outline-secondary  shadow-sm px-5">Back to List</a>
+                </div>
+            </div><!-- End Action Buttons -->
+            }
+        </div>
+
+    </section><!-- /Trip Details Section -->
+
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

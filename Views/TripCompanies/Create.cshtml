@@ -1,0 +1,79 @@
+﻿@model Eagle.Models.TripCompany
+
+@{
+    ViewData["Title"] = "Create Trip Company";
+}
+
+<main class="main">
+
+    <!-- Create Trip Company Section -->
+    <section id="create-trip-company" class="section">
+
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+            <p class="lead text-muted">Fill out the form below to create a new trip company.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <form asp-action="Create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                                <!-- Company Select -->
+                                <div class="mb-3">
+                                    <label asp-for="CompanyId" class="form-label fw-bold"></label>
+                                    <select asp-for="CompanyId" class="form-select" asp-items="ViewBag.CompanyId"></select>
+                                </div>
+
+                                <!-- Trip Select -->
+                                <div class="mb-3">
+                                    <label asp-for="TripId" class="form-label fw-bold"></label>
+                                    <select asp-for="TripId" class="form-select" asp-items="ViewBag.TripId"></select>
+                                </div>
+
+                                <!-- Responsible Input -->
+                                <div class="mb-3">
+                                    <label asp-for="Responsible" class="form-label fw-bold"></label>
+                                    <input asp-for="Responsible" class="form-control" />
+                                    <span asp-validation-for="Responsible" class="text-danger"></span>
+                                </div>
+
+                                <!-- Status Select -->
+                                <div class="mb-4">
+                                    <label asp-for="Status" class="form-label fw-bold"></label>
+                                    <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<StatusEnum>()"></select>
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="d-grid">
+                                    <input type="submit" value="Create" class="btn btn-success shadow-sm" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to List Link -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <a asp-action="Index" class="btn btn-link text-muted">Back to List</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section><!-- /Create Trip Company Section -->
+
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

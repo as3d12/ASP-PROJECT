@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Eagle.Models.TripCompany>
+
+@{
+    ViewData["Title"] = "Trip Companies Index";
+}
+
+<main class="main">
+
+    <!-- Trip Companies Index Section -->
+    <section id="trip-companies-index" class="section">
+
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+            <p class="lead text-muted">Manage the trip companies below or create a new one.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Create New TripCompany Button -->
+            <div class="row mb-4">
+                <div class="col-md-12 text-center">
+                    <a asp-action="Create" class="btn btn-success shadow-sm px-5">Create New Trip Company</a>
+                </div>
+            </div>
+
+            <!-- Trip Companies Cards -->
+            <div class="row justify-content-center">
+                @if (!Model.Any())
+                {
+                    <div class="col-lg-10">
+                        <div class="alert alert-info text-center">No trip companies available. Click "Create New Trip Company" to add one.</div>
+                    </div>
+                }
+                else
+                {
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-10 mb-4">
+                            <div class="card border-0 shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <h5 class="card-title fw-bold text-dark mb-2">Responsible: @item.Responsible</h5>
+                                            <p class="card-text text-muted mb-1">Status: @item.Status</p>
+                                            <p class="card-text text-muted mb-2">Trip: @item.Trip.Description</p>
+                                            <p class="card-text text-muted mb-0">Company: @item.Company.Email</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <div class="card-footer bg-white text-end border-0">
+                                        <a asp-action="Edit" asp-route-id="@item.TripCompanyId" class="btn btn-outline-primary btn-sm px-4 py-2 shadow-sm">Edit</a>
+                                        <a asp-action="Details" asp-route-id="@item.TripCompanyId" class="btn btn-outline-secondary btn-sm px-4 py-2 shadow-sm">Details</a>
+                                        <a asp-action="Delete" asp-route-id="@item.TripCompanyId" class="btn btn-outline-danger btn-sm px-4 py-2 shadow-sm">Delete</a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+            </div><!-- End Trip Companies Cards -->
+
+        </div>
+
+    </section><!-- /Trip Companies Index Section -->
+    <br />
+
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

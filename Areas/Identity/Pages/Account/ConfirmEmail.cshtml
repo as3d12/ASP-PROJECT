@@ -1,0 +1,48 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Confirm Email";
+}
+
+<main class="main">
+
+    <!-- Confirm Email Section -->
+    <section id="confirm-email" class="section bg-light py-5">
+
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+                <p class="lead text-muted">Your email confirmation status is below.</p>
+            </div><!-- End Section Title -->
+            <!-- Status Message -->
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <partial name="_StatusMessage" model="Model.StatusMessage" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Login Button -->
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4 text-center">
+                    <a asp-page="/Account/Login" class="btn btn-primary btn-lg shadow-sm px-5">
+                        <i class="bi bi-box-arrow-in-right"></i> Login
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       
+    </section><!-- /Confirm Email Section -->
+
+</main>

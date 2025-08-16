@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\companies\\findby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\companies\\findby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\tripcompanies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\viewmodel\\companiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\viewmodel\\companiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\tripcompanies\\companiesavgprice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\companiesavgprice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\viewmodel\\tripsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\viewmodel\\tripsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\controllers\\tripcompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\tripcompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\viewmodel\\companyavgpricepertrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\viewmodel\\companyavgpricepertrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\tripcompanies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\tripcompanies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\models\\tripcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\tripcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\malka\\onedrive\\desktop\\project\\eagle\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Companies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Companies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Companies\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:59:18.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\Index.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:59:00.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Companies\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Companies\\Create.cshtml",
+              "RelativeToolTip": "Views\\Companies\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:39:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FindBy.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Companies\\FindBy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\FindBy.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Companies\\FindBy.cshtml",
+              "RelativeToolTip": "Views\\Companies\\FindBy.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:35:00.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompaniesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\ViewModel\\CompaniesViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CompaniesViewModel.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\ViewModel\\CompaniesViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CompaniesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:09:19.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:21:58.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompaniesAvgPrice.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:39:33.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TripsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\ViewModel\\TripsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\TripsViewModel.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\ViewModel\\TripsViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\TripsViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:41:19.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TripsController.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Controllers\\TripsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TripsController.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Controllers\\TripsController.cs",
+              "RelativeToolTip": "Controllers\\TripsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:21:35.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TripCompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Controllers\\TripCompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TripCompaniesController.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Controllers\\TripCompaniesController.cs",
+              "RelativeToolTip": "Controllers\\TripCompaniesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:45:34.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyAvgPricePerTrip.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:26:00.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwEYAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:02:09.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Section.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\Section.cs",
+              "RelativeDocumentMoniker": "Models\\Section.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\Section.cs",
+              "RelativeToolTip": "Models\\Section.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:14:56.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Company.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\Company.cs",
+              "RelativeToolTip": "Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:40:07.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\Details.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T18:59:04.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\TripCompanies\\Create.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T18:59:34.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "Models\\Trip.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\Trip.cs",
+              "RelativeToolTip": "Models\\Trip.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:42:34.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TripCompany.cs",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\TripCompany.cs",
+              "RelativeDocumentMoniker": "Models\\TripCompany.cs",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Models\\TripCompany.cs",
+              "RelativeToolTip": "Models\\TripCompany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:40:17.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:29:41.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\malka\\OneDrive\\Desktop\\Project\\Eagle\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:29:36.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

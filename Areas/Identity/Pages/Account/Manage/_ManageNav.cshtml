@@ -1,0 +1,55 @@
+﻿@inject SignInManager<IdentityUser> SignInManager
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+
+<ul class="nav nav-pills flex-column bg-light p-4 rounded shadow-sm">
+
+    <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">
+            <i class="bi bi-person me-2"></i> Profile
+        </a>
+    </li>
+
+    <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">
+            <i class="bi bi-envelope me-2"></i> Email
+        </a>
+    </li>
+
+    <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">
+            <i class="bi bi-lock me-2"></i> Password
+        </a>
+    </li>
+
+    @if (hasExternalLogins)
+    {
+        <li id="external-logins" class="nav-item mb-3">
+            <a id="external-login" class="nav-link d-flex align-items-center @ManageNavPages.ExternalLoginsNavClass(ViewContext)" asp-page="./ExternalLogins">
+                <i class="bi bi-box-arrow-in-right me-2"></i> External logins
+            </a>
+        </li>
+    }
+
+    <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">
+            <i class="bi bi-shield-lock me-2"></i> Two-factor authentication
+        </a>
+    </li>
+
+    <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">
+            <i class="bi bi-file-person me-2"></i> Personal data
+        </a>
+    </li>
+
+    <li class="nav-item mt-4">
+        <form class="form-inline d-flex align-items-center" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button type="submit" class="btn btn-danger w-100">
+                <i class="bi bi-box-arrow-right me-2"></i> Logout
+            </button>
+        </form>
+    </li>
+
+</ul>

@@ -1,0 +1,74 @@
+﻿@model Eagle.Models.Company
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<main class="main">
+
+    <!-- Create Company Section -->
+    <section id="create-company" class="section bg-light py-5">
+
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+                <p class="lead text-muted">Enter the details for the new company below.</p>
+            </div><!-- End Section Title -->
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-4">
+                            <form asp-action="Create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                                <div class="form-group mb-3">
+                                    <label asp-for="Name" class="form-label fw-bold"></label>
+                                    <input asp-for="Name" class="form-control shadow-sm" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label asp-for="Location" class="form-label fw-bold"></label>
+                                    <input asp-for="Location" class="form-control shadow-sm" />
+                                    <span asp-validation-for="Location" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label asp-for="Email" class="form-label fw-bold"></label>
+                                    <input asp-for="Email" class="form-control shadow-sm" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label asp-for="Phone" class="form-label fw-bold"></label>
+                                    <input asp-for="Phone" class="form-control shadow-sm" />
+                                    <span asp-validation-for="Phone" class="text-danger"></span>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Create" class="btn btn-success shadow-sm px-5" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <a asp-action="Index" class="btn btn-outline-secondary shadow-sm">Back to List</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section><!-- /Create Company Section -->
+
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

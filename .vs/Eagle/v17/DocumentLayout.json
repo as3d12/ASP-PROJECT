@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\data\\migrations\\20240826203513_new-last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:data\\migrations\\20240826203513_new-last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\tripcompanies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\tripcompanies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\tripcompanies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\controllers\\sectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\sectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\tripcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\tripcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\controllers\\tripcompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\tripcompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\tripcompanies\\companiesavgprice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\companiesavgprice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\statusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\viewmodel\\companiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\viewmodel\\companiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\companies\\findby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\companies\\findby.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\viewmodel\\tripsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\viewmodel\\tripsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\models\\viewmodel\\companyavgpricepertrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:models\\viewmodel\\companyavgpricepertrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\tripcompanies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\tripcompanies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|c:\\users\\asaad\\pictures\\project\\eagle\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF68EF4-AC53-4232-A06E-7214F1041EC9}|Eagle.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240826203513_new-last.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Data\\Migrations\\20240826203513_new-last.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240826203513_new-last.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Data\\Migrations\\20240826203513_new-last.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240826203513_new-last.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T20:35:13.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Edit.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Edit.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEMAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T20:34:38.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SectionsController.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\SectionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SectionsController.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\SectionsController.cs",
+              "RelativeToolTip": "Controllers\\SectionsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwBsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T20:32:29.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\StatusEnum.cs",
+              "RelativeDocumentMoniker": "Models\\StatusEnum.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\StatusEnum.cs",
+              "RelativeToolTip": "Models\\StatusEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T20:24:50.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompaniesAvgPrice.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\CompaniesAvgPrice.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:39:33.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "Models\\Trip.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\Trip.cs",
+              "RelativeToolTip": "Models\\Trip.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAcwDQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:42:34.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEgAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:02:09.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TripCompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\TripCompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TripCompaniesController.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\TripCompaniesController.cs",
+              "RelativeToolTip": "Controllers\\TripCompaniesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:45:34.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Index.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:59:00.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Create.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T18:59:34.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompaniesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\ViewModel\\CompaniesViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CompaniesViewModel.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\ViewModel\\CompaniesViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CompaniesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:09:19.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TripsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\ViewModel\\TripsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\TripsViewModel.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\ViewModel\\TripsViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\TripsViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:41:19.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Section.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\Section.cs",
+              "RelativeDocumentMoniker": "Models\\Section.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\Section.cs",
+              "RelativeToolTip": "Models\\Section.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:14:56.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Company.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\Company.cs",
+              "RelativeToolTip": "Models\\Company.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:40:07.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TripCompany.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\TripCompany.cs",
+              "RelativeDocumentMoniker": "Models\\TripCompany.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\TripCompany.cs",
+              "RelativeToolTip": "Models\\TripCompany.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:40:17.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:21:58.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FindBy.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Companies\\FindBy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\FindBy.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Companies\\FindBy.cshtml",
+              "RelativeToolTip": "Views\\Companies\\FindBy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:35:00.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Companies\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Companies\\Create.cshtml",
+              "RelativeToolTip": "Views\\Companies\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:39:22.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Companies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\Companies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Companies\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T19:59:18.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TripsController.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\TripsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TripsController.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Controllers\\TripsController.cs",
+              "RelativeToolTip": "Controllers\\TripsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:21:35.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompanyAvgPricePerTrip.cs",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CompanyAvgPricePerTrip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:26:00.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripCompanies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\TripCompanies\\Details.cshtml",
+              "RelativeToolTip": "Views\\TripCompanies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T18:59:04.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:29:41.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\asaad\\Pictures\\Project\\Eagle\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:29:36.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<main class="main">
+
+    <!-- Access Denied Section -->
+    <section id="access-denied" class="section bg-light py-5 text-center">
+
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="section-title mb-5">
+                <h1 class="display-4 fw-bold text-danger">@ViewData["Title"]</h1>
+                <p class="lead text-muted">You do not have access to this resource.</p>
+            </div><!-- End Section Title -->
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="alert alert-danger shadow-sm" role="alert">
+                        <h4 class="alert-heading">Access Denied</h4>
+                        <p>You are not authorized to view this page or perform the requested action.</p>
+                        <hr>
+                        <p class="mb-0">Please contact your administrator if you believe this is a mistake.</p>
+                    </div>
+                    <a asp-page="/Index" class="btn btn-outline-secondary btn-lg shadow-sm mt-3">Return to Home</a>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </section><!-- /Access Denied Section -->
+
+</main>

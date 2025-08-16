@@ -1,0 +1,70 @@
+﻿@model Eagle.Models.TripCompany
+
+@{
+    ViewData["Title"] = "Trip Company Details";
+}
+
+<main class="main">
+
+    <!-- Trip Company Details Section -->
+    <section id="trip-company-details" class="section">
+
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2 class="display-4 fw-bold text-primary">@ViewData["Title"]</h2>
+            <p class="lead text-muted">Review the details of the selected trip company below.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <h4 class="mb-4">Trip Company Details</h4>
+                            <dl class="row mb-0">
+                                <dt class="col-sm-4 fw-bold text-muted">
+                                    @Html.DisplayNameFor(model => model.Responsible)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Responsible)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold text-muted">
+                                    @Html.DisplayNameFor(model => model.Status)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Status)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold text-muted">
+                                    @Html.DisplayNameFor(model => model.Trip)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Trip.Description)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold text-muted">
+                                    @Html.DisplayNameFor(model => model.Company)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Company.Email)
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="card-footer bg-white text-end border-0">
+                            <a asp-action="Edit" asp-route-id="@Model?.TripCompanyId" class="btn btn-outline-primary btn-sm px-4 py-2 shadow-sm">Edit</a>
+                            <a asp-action="Index" class="btn btn-link text-muted">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+       
+    </section><!-- /Trip Company Details Section -->
+
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main class="main">
+    <section id="hero" class="hero section">
+        <img src="assets/img/bg.jpg" " alt="" data-aos="fade-in">
+        <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                   
+
+                  
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login"></a>
+               
+        @if (SignInManager.IsSignedIn(User))
+        {
+                        <h2>Search For A Trip</h2>
+                        <a asp-action="Index" asp-controller="Sections" class="btn btn-get-started">Search</a>
+        }
+        else
+        {
+                        <h2>Welcome to Gulnare</h2>
+                        <a class="btn btn-get-started" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        }
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+

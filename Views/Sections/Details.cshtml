@@ -1,0 +1,50 @@
+﻿@model Eagle.Models.Section
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<main class="main">
+
+    <!-- Details Section -->
+    <section id="details-section" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>@ViewData["Title"]</h2>
+            <p>Details of the selected section are shown below.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4 justify-content-center">
+
+                <div class="col-lg-5">
+                    <section>
+                        <h4>Section Details</h4>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Name)</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+                        </dl>
+                        @if (User.IsInRole(clsRoles.roleAdmin))
+                        {
+                            <div class="text-center">
+                                <a asp-action="Edit" asp-route-id="@Model?.SectionId" class="btn btn-outline-success w-100 mb-3">Edit</a>
+                                <a asp-action="Index" class="btn btn-outline-secondary w-100">Back to List</a>
+                            </div>
+                        }
+                    </section>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- /Details Section -->
+
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

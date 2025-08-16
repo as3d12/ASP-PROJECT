@@ -1,0 +1,77 @@
+﻿@model Eagle.Models.Company
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<main class="main">
+
+    <!-- Delete Company Section -->
+    <section id="delete-company" class="section bg-light py-5">
+
+        <div class="container" data-aos="fade-up">
+
+            <!-- Section Title -->
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold text-danger">@ViewData["Title"]</h2>
+                <p class="lead text-muted">Are you sure you want to delete this company?</p>
+            </div><!-- End Section Title -->
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Company Details</h4>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Name)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Location)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Location)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Email)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Email)
+                                </dd>
+                                <dt class="col-sm-4 fw-bold">
+                                    @Html.DisplayNameFor(model => model.Phone)
+                                </dt>
+                                <dd class="col-sm-8">
+                                    @Html.DisplayFor(model => model.Phone)
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="card-footer bg-white text-end border-0">
+                            <form asp-action="Delete" class="d-inline">
+                                <input type="hidden" asp-for="CompanyId" />
+                                <input type="submit" value="Delete" class="btn btn-danger shadow-sm px-4" />
+                            </form>
+                            <a asp-action="Index" class="btn btn-outline-secondary shadow-sm px-4 ms-2">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <br />
+    </section><!-- /Delete Company Section -->
+
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
